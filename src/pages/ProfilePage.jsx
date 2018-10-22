@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-import Menu from '../components/Menu';
-import Search from '../components/Search';
-import Categories from '../components/Categories';
+import { Menu, Search, Categories } from '../components';
 
 export default class ProfilePage extends Component {
     render() {

@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
-import Search from '../components/Search';
+import { Menu, Search, Login } from '../components';
 
 export default class LoginPage extends Component {
     render() {
         return (
             <div className="container-fluid border">
-            <Search />
+                <Menu />
+                <Search />
+                <Login />
             </div>
+
         );
     };
 };
