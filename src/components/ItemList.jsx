@@ -17,9 +17,5 @@ export default props => {
         <Item />
         <Item />
         <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
     </div>
 };
