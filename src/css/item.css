@@ -1,0 +1,10 @@
+.card-item {
+  width: 18rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff6e00;
+  letter-spacing: -0.4px;
+}
