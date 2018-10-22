@@ -8,7 +8,7 @@ import ItemList from '../components/ItemList';
 export default class ItemListPage extends Component {
     render() {
         return (
-            <div className="Container border">
+            <div className="container-fluid border">
                 <Menu />
                 <Search />
                 <Categories />

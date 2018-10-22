@@ -7,7 +7,7 @@ import Categories from '../components/Categories';
 export default class MyRequestsPage extends Component {
     render() {
         return (
-            <div className="Container border">
+            <div className="container-fluid border">
                 <Menu />
                 <Search />
                 <Categories />
