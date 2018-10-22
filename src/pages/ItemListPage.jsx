@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
-import Menu from '../components/Menu';
-import Search from '../components/Search';
-import Categories from '../components/Categories';
-import ItemList from '../components/ItemList';
+import { Menu, Search, Categories, ItemList } from '../components';
 
 export default class ItemListPage extends Component {
     render() {
