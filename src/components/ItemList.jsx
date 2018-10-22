@@ -1,5 +1,25 @@
 import React from 'react';
 
+import '../css/item-list.css'
+import Item from './Item'
+
 export default props => {
-    return <div>ItemList</div>
+    return <div className="card-columns">
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+    </div>
 };
