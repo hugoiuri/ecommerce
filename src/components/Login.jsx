@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/login.css'
 
 export default props => {
@@ -6,7 +7,7 @@ export default props => {
     <Fragment>
         <div className="row">
             <div className="main mx-auto">
-                <h3 className="loginPadding">Por favor faça login, ou <a href="">Cadastre-se</a></h3>
+                <h3 className="loginPadding">Por favor faça login, ou <Link className="nav-link" to="/cadastro" >Cadastre-se</Link></h3>
                 <div className="row">
                     <div className="col-xs-6 col-sm-6 col-md-6">
                         <a href="#" className="btn btn-lg btn-primary btn-block">Facebook</a>
@@ -33,7 +34,7 @@ export default props => {
                             <input type="checkbox" />
                             Remember me </label>
                     </div>
-                    <button type="submit" clclassNameass="btn btn btn-primary">Log In</button>
+                    <button type="submit" className="btn btn-info btn-block">Log In</button>
                 </form>
             </div>
         </div>
