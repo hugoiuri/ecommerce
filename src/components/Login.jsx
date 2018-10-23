@@ -6,7 +6,7 @@ export default props => {
     <Fragment>
         <div className="row">
             <div className="main mx-auto">
-                <h3 className="loginPadding">Por favor faça login, ou <a href="#">Cadastre-se</a></h3>
+                <h3 className="loginPadding">Por favor faça login, ou <a href="">Cadastre-se</a></h3>
                 <div className="row">
                     <div className="col-xs-6 col-sm-6 col-md-6">
                         <a href="#" className="btn btn-lg btn-primary btn-block">Facebook</a>
