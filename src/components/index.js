@@ -2,7 +2,7 @@ import Cart from './Cart'
 import Categories from './Categories'
 import Item from './Item'
 import ItemCart from './ItemCart'
-import ItemDescription from './ItemDescription'
+import ItemDetail from './ItemDetail'
 import ItemList from './ItemList'
 import Login from './Login'
 import Menu from './Menu'
@@ -16,7 +16,7 @@ export {
     Categories,
     Item,
     ItemCart,
-    ItemDescription,
+    ItemDetail,
     ItemList,
     Login,
     Menu,

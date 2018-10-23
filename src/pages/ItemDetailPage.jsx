@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Menu, Search, Categories } from '../components';
+import { Menu, Search, Categories, ItemDetail } from '../components';
 
 export default class ItemDetailPage extends Component {
     render() {
@@ -9,6 +9,7 @@ export default class ItemDetailPage extends Component {
                 <Menu />
                 <Search />
                 <Categories />
+                <ItemDetail />
             </div>
         );
     };
