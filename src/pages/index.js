@@ -4,6 +4,7 @@ import ItemListPage from './ItemListPage';
 import LoginPage from './LoginPage';
 import MyRequestsPage from './MyRequestsPage';
 import ProfilePage from './ProfilePage';
+import UserRegisterPage from './UserRegisterPage'
 
 export {
     CartPage,
@@ -11,5 +12,6 @@ export {
     ItemListPage,
     LoginPage,
     MyRequestsPage,
-    ProfilePage
+    ProfilePage,
+    UserRegisterPage
 }
