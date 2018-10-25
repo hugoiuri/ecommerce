@@ -1,0 +1,12 @@
+.cart {
+  padding: 10px;
+}
+
+.cart-list.card-columns {
+  column-count: 1;
+}
+
+.cart-data {
+  border-radius: 5px;
+}
+

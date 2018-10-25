@@ -1,5 +1,6 @@
 import Cart from './Cart'
 import Categories from './Categories'
+import CartData from './CartData'
 import Item from './Item'
 import ItemCart from './ItemCart'
 import ItemDetail from './ItemDetail'
@@ -14,6 +15,7 @@ import UserRegister from './UserRegister'
 export {
     Cart,
     Categories,
+    CartData,
     Item,
     ItemCart,
     ItemDetail,
