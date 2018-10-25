@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './css/index.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { ItemListPage, MyRequestsPage, LoginPage, ProfilePage, CartPage, UserRegisterPage, ItemDetailPage } from './pages';
+import { ItemListPage, MyRequestsPage, LoginPage, ProfilePage, CartPage, UserRegisterPage, ItemDetailPage, ProductPage, ProductListPage } from './pages';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -17,6 +17,8 @@ ReactDOM.render(
       <Route path="/carrinho" component={CartPage} />
       <Route path="/cadastro" component={UserRegisterPage} />
       <Route path="/item/:itemCode" component={ItemDetailPage} />
+      <Route path="/novo-produto" component={ProductPage} />
+      <Route path="/lista-produtos" component={ProductListPage} />      
     </Switch>
   </BrowserRouter>, document.getElementById('root'));
 

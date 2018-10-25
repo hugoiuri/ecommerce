@@ -11,6 +11,11 @@ import Profile from './Profile'
 import RequestItem from './RequestItem'
 import Search from './Search'
 import UserRegister from './UserRegister'
+import ProductForm from './ProductForm'
+import Product from './Product'
+import ProductActions from './ProductActions'
+import ProductList from './ProductList'
+
 
 export {
     Cart,
@@ -25,5 +30,9 @@ export {
     Profile,
     RequestItem,
     Search,
-    UserRegister
+    UserRegister,
+    ProductForm,
+    Product,
+    ProductList,
+    ProductActions
 }
