@@ -10,26 +10,26 @@ export default props => {
                             Todas as Categorias
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a className="dropdown-item" href="#">Alimentação</a>
-                            <a className="dropdown-item" href="#">Automóveis</a>
-                            <a className="dropdown-item" href="#">Eletrônicos</a>
-                            <a className="dropdown-item" href="#">Tecnologia</a>
-                            <a className="dropdown-item" href="#">Utilidades Domésticas</a>
+                            <a className="dropdown-item" href="#alimentacao">Alimentação</a>
+                            <a className="dropdown-item" href="#automoveis">Automóveis</a>
+                            <a className="dropdown-item" href="#eletronicos">Eletrônicos</a>
+                            <a className="dropdown-item" href="#tecnologia">Tecnologia</a>
+                            <a className="dropdown-item" href="#utilidades-domesticas">Utilidades Domésticas</a>
                             <div className="dropdown-divider"></div>
-                            <a className="dropdown-item" href="#">Something else here</a>
+                            <a className="dropdown-item" href="#other">Something else here</a>
                         </div>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Eletrônicos</a>
+                        <a className="nav-link" href="#eletronicos">Eletrônicos</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Tecnologia</a>
+                        <a className="nav-link" href="#tecnologia">Tecnologia</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Utilidades Domésticas</a>
+                        <a className="nav-link" href="#utilidades-domesticas">Utilidades Domésticas</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Outlet</a>
+                        <a className="nav-link" href="#outlet">Outlet</a>
                     </li>
                 </ul>
             </div>
